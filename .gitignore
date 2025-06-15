@@ -1,0 +1,47 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.VC.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# User-specific files
+*.userosscache
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Entity Framework Migrations
+# Optional: track migrations folder
+# Migrations/
+
+# ASP.NET Core
+appsettings.*.json
+
+# Docker
+.env
+docker-compose.override.yml
+
+# Logs and databases
+*.log
+*.db
+logs/
+
+# OS generated files
+Thumbs.db
+.DS_Store

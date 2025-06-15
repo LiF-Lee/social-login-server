@@ -1,0 +1,10 @@
+@social_login_server_HostAddress = http://localhost:8080
+
+POST {{social_login_server_HostAddress}}/graphql
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1IiwiZW1haWwiOiJ0ZXN0dXNlckB0ZXN0LmNvbSIsImlhdCI6MTc0OTk1MjI5OSwianRpIjoiZWI3NzQwNDEtMGQ1NC00NTYzLWI0MWYtYzkwODdlNWJhMmE2IiwibmJmIjoxNzQ5OTUyMjk5LCJleHAiOjE3NDk5NTU4OTksImlzcyI6InNvY2lhbC1sb2dpbi1zZXJ2ZXIiLCJhdWQiOiJzb2NpYWwtbG9naW4tY2xpZW50In0.OwUeRby9Xwx9Mh_4AR5yP_GurdP6_0uu6Y-0N-Yiqt8
+
+{
+    "query": "query { me { id email created } }"
+}
